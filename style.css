@@ -714,6 +714,286 @@ input[class="footer__email"]{
   transform: scale(1.3);
 }
 
+/* MEDIA */
+
+@media (max-width: 990px){
+  /* Header */
+  .header__nav{
+    display: none;
+  }
+  .header__btn{
+    display: none;
+  }
+  /* intro */
+  .intro{
+    padding-top: 0px;
+  }
+  .intro__title{
+    width: 100%;
+    font-size: 60px;
+    text-align: center;
+  }
+  /* Section */
+  .section{
+    padding: 70px 0;
+  }
+  /* Story */
+  .story__title{
+    margin-bottom: 40px;
+  }
+  .story__subtitle__item{
+    margin-bottom: 25px;
+  }
+  .story__link{
+    margin-top: 35px;
+  }
+  .story__item--img img{
+    margin-left: 30px;
+    width: 80%;
+  }
+  .story__item--title{
+    margin-left: 10px;
+  }
+  /* NEWS */
+  .news__inner{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .news_item{
+    width: 60%;
+  }
+  .news__item--second{
+    
+    justify-content:center
+  }
+  .new__item__one{
+    margin-bottom: 20px;
+  }
+  /* Achivs */
+  .achivs__inner{
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .achivs__item{
+    margin-right: 0;
+    width: 60%;
+    margin-bottom: 15px;
+  }
+  /* fans */
+  .fans__content{
+    padding: 0 100px;
+  }
+  /* Contact */
+  .contacts__content{
+    margin-left: 10px;
+  }
+  .contacts__button{
+    margin-right: 10px;
+  }
+  /* Team */
+  .team__inner{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .team__item{
+    width: 35%;
+    margin-right: 15px;
+  }
+  /* Questions */
+  .question__item{
+    width: 70%;
+  }
+  /* Partners */
+  .partners__inner{
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+  .partners__item{
+    width: 30%;
+    margin-bottom: 15px;
+  }
+  /* footer */
+  .footer__inner{
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .footer__item--link{
+    width: 60%;
+    margin-bottom: 30px;
+  }
+  .footer__item{
+    margin-right: 15px;
+  }
+  .footer__title{
+    margin-bottom: 20px;
+  }
+  /* copyright */
+  .copyright__item{
+    margin: 0 15px 0 15px;
+  }
+}
+
+@media (max-width: 660px){
+  /* intro */
+  .intro__title{
+    font-size: 45px;
+  }
+  /* story */
+  .story__inner{
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    text-align: center;
+  }
+  .story__item{
+    width: 80%;
+  }
+  .story__item--img{
+    width: 60%;
+    margin-left: 10px;
+  }
+  .story__item--img img{
+    margin-left: 0;
+  }
+  .story__item--title{
+    order: 1;
+  }
+
+  /* whyASS */
+  .why__inner{
+    flex-wrap: wrap;
+  }
+  .why__img{
+    text-align: center;
+  }
+
+  .why__img img{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  /* News */
+  .news_item{
+    width: 90%;
+  }
+  /* fans */
+  .fans__content{
+    padding: 0 70px;
+  }
+  .fans__photo{
+    z-index: 1;
+  }
+  .fans__comment::after{
+    transform: translate3d(-30%, 50%, 0);
+  }
+  .fans__photo__reverse{
+    z-index: 1;
+  }
+  .fans__comment__reverse::after{
+    transform: translate3d(20%, 50%, 0);
+  }
+  /* Contacts */
+  .contacts__inner{
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+  .contacts__content{
+    width: 80%;
+    margin-bottom: 15px;
+  }
+  .contacts__button{
+    text-align: center;
+  }
+  /* question */
+  .question__acordion__header{
+    font-size: 16px;
+  }
+  .question__acordion__content{
+    font-size: 14px;
+  }
+
+  /* section */
+  .section{
+    padding: 40px 0;
+  }
+  /* footer */
+  .footer__item--link{
+    width: 73%;
+  }
+
+
+}
+
+@media (max-width: 474px) {
+  /* Story */
+  .story__item{
+    width: 100%;
+  }
+  .story__item--img{
+    width: 90%;
+  }
+  .story__link{
+    margin-top: 0;
+  }
+  /* WHY */
+  .why__item{
+    width: 55%;
+    margin-bottom: 15px;
+  }
+  /* News */
+  .news_item{
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  /* Fans */
+  .fans__inner{
+    margin: 0;
+    width: 100%;
+  }
+  .fans__title{
+    line-height: 1.3;
+    font-size: 12;
+  }
+
+  /* Team */
+  .team__item{
+    width: 65%;
+  }
+  /* question */
+  .question__item{
+    width: 95%;
+  }
+  /* partners */
+  .partners__item{
+    width: 80%;
+    margin-bottom: 25px;
+  }
+  /* subscribe */
+  .subscribe__item{
+    width: 100%;
+  }
+  /* Footer */
+  .footer__inner{
+    justify-content: center;
+  }
+  .footer__item--link{
+    width: 100%;
+  }
+  .footer__product, .footer__company{
+    margin-right: 30px;
+  }
+  .footer__email{
+    width: 300px;
+  }
+  .footer__btn{
+    padding: 15px 20px;
+  }
+}
 
 
 
